@@ -5,6 +5,8 @@ spinner() {
 	local delay=0.175
 	local spinstr='|/-\'
 	local infotext=${2}
+	
+	tput civis;
 
 	while [ "$(ps a | awk '{print $1}' | grep ${pid})" ]; do
 		local temp=${spinstr#?}
@@ -19,6 +21,8 @@ spinner() {
 	done
 
 	printf " \b\b\b\b"
+	
+	tput cnorm;
 }
 
 sleep 30 &
