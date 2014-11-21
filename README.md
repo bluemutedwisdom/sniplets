@@ -4,8 +4,9 @@ Here you can find a set of small scripts / sniplets that I wrote. These script /
 
 ## Bash
 
-    - download.sh : This will only show the percentage of the download.
-    - spinner.sh  : This will show a spinner by long running actions.
+    - download.sh   : This will only show the percentage of the download.
+    - spinner.sh    : This will show a spinner by long running actions.
+    - git-update.sh : This will update your local git repo with the remote one.
 
 ## Python
 
