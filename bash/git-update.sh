@@ -33,6 +33,7 @@ echo " +------------------------------------+"
 echo
 
 read -ep " please enter your local git repo: " -i "/opt/git" repodir
+echo 
 cd ${repodir}
 
 for repo in *; do
